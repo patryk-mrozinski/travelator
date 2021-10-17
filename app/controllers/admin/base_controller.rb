@@ -1,6 +1,6 @@
 module Admin
   class BaseController < ApplicationController
     include AdminSearch
-    layout 'admin'
+    layout "admin"
   end
 end
